@@ -3,7 +3,7 @@ function component() {
   let element = document.createElement('div');
 
   // Lodash, currently included via a script, is required for this line to work
-  element.innerHTML = _.join(['Hello', 'Webpack Bundler'], ' ');
+  element.innerHTML = _.join(['Hello', 'Webpack Bundler  www'], ' ');
 
   return element;
 }
