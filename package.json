@@ -4,7 +4,7 @@
   "description": "",
   "private": false,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
     "start": "webpack-dev-server",
     "build": "webpack"
   },
@@ -16,6 +16,7 @@
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
+    "jest": "^24.1.0",
     "webpack": "^4.29.5",
     "webpack-cli": "^3.2.3",
     "webpack-dev-server": "^3.2.0"
