@@ -8,3 +8,11 @@ install:
 
 script:
   - npm test
+
+deploy:
+  provider: pages
+  skip-cleanup: true
+  github-token: 421c35a32a5656d4012ee0e3e624f2bfa1334f6a
+  keep-history: true
+  on:
+    branch: master
